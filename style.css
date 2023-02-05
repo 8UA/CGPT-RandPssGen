@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2b2d42;
+    color: #edf2f4;
+    text-align: center;
+    padding: 2em;
+}
+  
+h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+  
+p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+  
+input[type="number"] {
+    width: 4em;
+    padding: 0.5em;
+    font-size: 1.2em;
+    background-color: #8d99ae;
+    color: #2b2d42;
+    border: none;
+    border-radius: 5px;
+    margin-right: 0.3em;
+}
+  
+input[type="checkbox"] {
+    margin-right: 1em;
+}
+  
+button {
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    background-color: #ef233c;
+    color: #edf2f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+#generatedPassword {
+    font-size: 1.5em;
+    color: #d90429;
+    margin-top: 1em;
+}
+  
+#generatedPasswordContainer {
+    display: none;
+    margin-top: 1em;
+}
+  
+#copyBtn {
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    background-color: #ef233c;
+    color: #edf2f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+#notification {
+    font-size: 1.2em;
+    background-color: #edf2f4;
+    color: #2b2d42;
+    border: 1px solid #8d99ae;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin-top: 1em;
+    animation: fadeOut 5s ease-in-out;
+}
+  
+@keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+}
+  
+  
+footer {
+    text-align: center;
+    padding-top: 1em;
+}
+
+#footer-text {
+    font-size: 0.8em;
+    color: #8d99ae;
+}
+
+#footer-text span {
+    font-weight: bold;
+    color: #edf2f4;
+}
